@@ -2,6 +2,8 @@
 ## some benefit to caching the inverse of a matrix rather than compute it repeatedly.
 ## Below are a pair of functions that are used to create an object that stores a matrix and caches its inverse.
 
+## SHA-1 269fe6199c9f17ea0f6a45b69c59cd7c6052fe6c
+
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -18,6 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Below is the function computes the inverse of the special "matrix" created by makeCacheMatrix above. 
 ## If the inverse has already been calculated, it should retrieve the inverse from the cache.
+
+## SHA-1 269fe6199c9f17ea0f6a45b69c59cd7c6052fe6c
 
 ## Write a short comment describing this function
 cacheSolve <- function(x, ...) {
